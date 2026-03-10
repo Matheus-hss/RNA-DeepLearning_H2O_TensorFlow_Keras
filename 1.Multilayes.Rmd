@@ -1,6 +1,5 @@
 ---
-Formação Cientista de Dados - Prof. Fernando Amaral
-RNA
+RNA no R
 ---
 
 ```{r}
@@ -67,3 +66,4 @@ confusao = table(resultado$class,iristeste$Species)
 confusao
 sum(diag(confusao) * 100 / sum(confusao))
 ```
+
