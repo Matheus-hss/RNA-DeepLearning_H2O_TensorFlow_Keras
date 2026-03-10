@@ -1,5 +1,4 @@
 ---
-Formação Cientista de Dados - Prof. Fernando Amaral
 Deep Learning
 ---
 
@@ -81,3 +80,4 @@ treino[20,785]
 pred <- h2o.predict(modelo, newdata = treino[20,1:784])
 pred$predict
 ```
+
